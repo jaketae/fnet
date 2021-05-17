@@ -2,7 +2,9 @@
 
 PyTorch implementation of [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824v1).
 
-![alt text](https://miro.medium.com/max/1551/0*LE7Bqa1C-JIAWP7Z.png)
+<p align="center">
+  <img src="https://miro.medium.com/max/1551/0*LE7Bqa1C-JIAWP7Z.png">
+</p>
 
 ## Quickstart
 
