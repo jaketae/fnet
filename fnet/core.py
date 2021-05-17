@@ -41,7 +41,7 @@ class FNetEncoderLayer(nn.Module):
 
 class FNet(nn.TransformerEncoder):
     def __init__(
-        self, d_model, expansion_factor=2, dropout=0.5, num_layers=6,
+        self, d_model=256, expansion_factor=2, dropout=0.5, num_layers=6,
     ):
         encoder_layer = FNetEncoderLayer(d_model, expansion_factor, dropout)
         super().__init__(encoder_layer=encoder_layer, num_layers=num_layers)
