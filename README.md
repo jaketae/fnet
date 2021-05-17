@@ -34,7 +34,7 @@ FNet(
 
 ## Summary
 
-While transformers have proven to be successful in various domains, its `O(n^2)` computation complexity has been considered its structural weakness. Hence, many attempts have been made to optimize and speed up the model. The authors of the paper present FNet, a novel model that replaces self-attention with standard unparametrized Fourier transforms. Not only is FNet faster and computationally more efficient than the classic transformer due to the simple linear nature of the transform, but it also retains 92% of BERT's accuracy on the GLUE benchmark. Given a small number of parameters, FNet outperformed transformers. The authors also report that FNet can effectively handle long inputs.
+While transformers have proven to be successful in various domains, its `O(n^2)` computation complexity has been considered a structural weakness. Many attempts have been made to optimize the model architecture. The authors of the paper present FNet, a model that replaces self-attention with standard unparametrized Fourier transforms. Not only is FNet faster and computationaly more efficient than the classic transformer, but it also retains 92% of BERT's accuracy on the GLUE benchmark. Given a smaller number of parameters, FNet outperformed transformers.
 
 ## Resources
 
